@@ -1,8 +1,11 @@
 <center><h1>Tackle Opportunity Window</h1></center>
 &nbsp;
 
-#### Analysis & Scripting By: Elijah Taber
-#### Submission Track: Undergraduate Track
+**2 Dozen Upvotes on Kaggle!**
+
+Kaggle Submission To Undergraduate Track: [Submission](https://www.kaggle.com/code/godragons6/tackle-opportunity-window)
+
+Data Source: [NFL Big Data Bowl 2024](https://www.kaggle.com/competitions/nfl-big-data-bowl-2024)
 
 # Introduction
 
@@ -65,7 +68,7 @@ $$
 By leveraging geometric principles, the TOW metric provides a nuanced understanding of the spatial dynamics that influence and predict tackling outcomes in the game. To gain some insight into the overall distribution of the TOW ratio for the entire tracking dataset, I crafted a 2D density plot of tacklers with a non-zero TOW Ratio to illuminate how consistent tacklers are at maintaining a close proximity to their target. 
 
 <div align="center">
-<img src="https://github.com/TaberNater96/NFL-Big-Data-Bowl-2024/blob/main/Images/TOW%20Ratio%20Density%20Plot.png?raw=true" width="600" height="400">
+<img src="https://github.com/TaberNater96/Portfolio-Projects/blob/main/NFL%20Big%20Data%20Bowl%202024/Images/TOW%20Ratio%20Density%20Plot.png?raw=true" width="600" height="400">
     </div>
 
 As one can see, the majority of tacklers stay within the tackle threshold for around 1/3 of the time, where the majority of the score is most likely at the end of the play.
@@ -83,7 +86,7 @@ The tracking datasets underpinning this analysis is extensive, containing 9 CSV 
 A good way to visualize the data phenomena is by looking at the tackles dataframe, sorted by playId. Notice recycled values in the playId column:
 
 <div align="center">
-<img src="https://github.com/TaberNater96/NFL-Big-Data-Bowl-2024/blob/main/Images/Tackles%20Dataframe%20Example.png?raw=true" width="600" height="400">
+<img src="https://github.com/TaberNater96/Portfolio-Projects/blob/main/NFL%20Big%20Data%20Bowl%202024/Images/Tackles%20Dataframe%20Example.png?raw=true" width="600" height="400">
     </div>
 
 # Deep Neural Network
@@ -92,7 +95,7 @@ A good way to visualize the data phenomena is by looking at the tackles datafram
 Owing to the intrinsic capabilities of a neural network, particularly its adeptness in detecting nuanced variations, the direction and orientation of each player were pivotal in enabling the model to discern and adapt to subtle shifts. These shifts are essential for the model to recognize and adhere to an emergent pattern, as the features exhibit significant, yet controlled, variation across successive frames. This variation is not arbitrary, but rather demonstrative of a tackler pursuing their target with precision. The controlled variability within these features provides the model with critical data points, allowing it to effectively learn and predict the dynamics of a tackler's movement in relation to their target. Visualizing the distribution of each player's orientation and direction in the EDA phase, and noticing the non-random variation, is what gave rise to the idea of focusing on this specific concept in parallel with the tackle opportunity window. 
 
 <div align="center">
-<img src="https://github.com/TaberNater96/NFL-Big-Data-Bowl-2024/blob/main/Images/Polar%20Histogram.png?raw=true" width="600" height="600">
+<img src="https://github.com/TaberNater96/Portfolio-Projects/blob/main/NFL%20Big%20Data%20Bowl%202024/Images/Polar%20Histogram.png?raw=true" width="600" height="600">
 </div>
 
 #### Architecture
@@ -105,33 +108,33 @@ When the target variable is split, its training set is used to compute the class
 To provide a deeper understanding of how this model operates in practice, consider the following play as an illustrative example. The yellow radius around the ball illustrates the TOW threshold while the black radius around the defenders represents their respective tackle probability density. Notice how the densities for Tyrann Mathieu and Marshon Lattimore fluctuate, influenced by their orientation and distance to the ball carrier. These two factors are critical. As soon as the TOW threshold is breached, their probability densities spike. 
 
 <div align="center">
-<img src="https://github.com/TaberNater96/NFL-Big-Data-Bowl-2024/blob/main/Images/Players/Marshon%20and%20Tyrann.png?raw=true" width="800" height="100">
+<img src="https://github.com/TaberNater96/Portfolio-Projects/blob/main/NFL%20Big%20Data%20Bowl%202024/Images/Players/Marshon%20and%20Tyrann.png?raw=true" width="800" height="100">
 </div>
 
 <div align="center">
-<img src="https://github.com/TaberNater96/NFL-Big-Data-Bowl-2024/blob/main/Images/TOW%20Animation.gif?raw=true" width="800" height="400">
+<img src="https://github.com/TaberNater96/Portfolio-Projects/blob/main/NFL%20Big%20Data%20Bowl%202024/Images/TOW%20Animation.gif?raw=true" width="800" height="400">
 </div>
 
 #### Time Series Analysis
 Defenders who can maintain a consistent tackle opportunity window by adjusting their orientation and acceleration on a moment’s notice can double or triple their chances of securing a tackle. This is due to the fast-paced environment of the NFL and how split second decisions determine the outcome of a play. The following graph illustrates this concept by analyzing how Tyrann Mathieu and Marshon Lattimore's probabilities fluctuate as their orientation and distance to the ball carrier change.
 
 <div align="center">
-<img src="https://github.com/TaberNater96/NFL-Big-Data-Bowl-2024/blob/main/Images/Players/Marshon%20and%20Tyrann.png?raw=true" width="800" height="100">
+<img src="https://github.com/TaberNater96/Portfolio-Projects/blob/main/NFL%20Big%20Data%20Bowl%202024/Images/Players/Marshon%20and%20Tyrann.png?raw=true" width="800" width="800" height="100">
 </div>
 
 <div align="center">
-<img src="https://github.com/TaberNater96/NFL-Big-Data-Bowl-2024/blob/main/Images/TOW%20Plot%20Animation.gif?raw=true" width="800" height="400">
+<img src="https://github.com/TaberNater96/Portfolio-Projects/blob/main/NFL%20Big%20Data%20Bowl%202024/Images/TOW%20Plot%20Animation.gif?raw=true" width="800" height="400">
 </div>
 
 #### Angle of Pursuit
 The following play by Yetur Gross-Matos, an outside linebacker for the Carolina Panthers, illustrates how an angle of pursuit is invaluable in tackling a ball carrier that is already on the run at full speed. His ability to track, accelerate, and properly angle himself, resulting in a crucial tackle, exemplifies his effort in not giving up on the play.
 
 <div align="center">
-<img src="https://github.com/TaberNater96/NFL-Big-Data-Bowl-2024/blob/main/Images/Players/Gross-Matos.png?raw=true" width="600" height="100">
+<img src="https://github.com/TaberNater96/Portfolio-Projects/blob/main/NFL%20Big%20Data%20Bowl%202024/Images/Players/Gross-Matos.png?raw=true" width="600" height="100">
 </div>
 
 <div align="center">
-<img src="https://github.com/TaberNater96/NFL-Big-Data-Bowl-2024/blob/main/Images/Angle%20of%20Pursuit.gif?raw=true" width="800" height="400">
+<img src="https://github.com/TaberNater96/Portfolio-Projects/blob/main/NFL%20Big%20Data%20Bowl%202024/Images/Angle%20of%20Pursuit.gif?raw=true" width="800" height="400">
 </div>
 
 # Rankings
@@ -139,15 +142,15 @@ The following play by Yetur Gross-Matos, an outside linebacker for the Carolina 
 The tackle opportunity window excels at demonstrating how efficient defenders are at tracking and maintaining a consistent proximity to their respective target. This parameter, however, necessitates contextual interpretation, as the positional roles of players inherently present divergent scopes for target tracking, contingent upon their spatial deployment and the dynamic opposition presented by offensive counterparts. This results in some players receiving more resistance than others. Therefore, I have developed a tripartite ranking system, categorizing defensive players' tracking capabilities in accordance with their positional classifications.
 
 <div align="center">
-<img src="https://github.com/TaberNater96/NFL-Big-Data-Bowl-2024/blob/main/Images/DL%20Rankings.png?raw=true" width="800" height="600">
+<img src="https://github.com/TaberNater96/Portfolio-Projects/blob/main/NFL%20Big%20Data%20Bowl%202024/Images/DL%20Rankings.png?raw=true" width="800" height="600">
     </div>
 
 <div align="center">
-<img src="https://github.com/TaberNater96/NFL-Big-Data-Bowl-2024/blob/main/Images/Linebacker%20Rankings.png?raw=true" width="800" height="600">
+<img src="https://github.com/TaberNater96/Portfolio-Projects/blob/main/NFL%20Big%20Data%20Bowl%202024/Images/Linebacker%20Rankings.png?raw=true" width="800" height="600">
     </div>
 
 <div align="center">
-<img src="https://github.com/TaberNater96/NFL-Big-Data-Bowl-2024/blob/main/Images/DB%20Rankings.png?raw=true" width="800" height="600">
+<img src="https://github.com/TaberNater96/Portfolio-Projects/blob/main/NFL%20Big%20Data%20Bowl%202024/Images/DB%20Rankings.png?raw=true" width="800" height="600">
     </div>
 
 # Conclusion
