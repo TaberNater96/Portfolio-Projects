@@ -3,7 +3,7 @@
 
 **2 Dozen Upvotes on Kaggle!**
 
-Kaggle Submission To Undergraduate Track: [Submission](https://www.kaggle.com/code/godragons6/tackle-opportunity-window)
+Competition Submission To Undergraduate Track: [Submission](https://www.kaggle.com/code/godragons6/tackle-opportunity-window)
 
 Data Source: [NFL Big Data Bowl 2024](https://www.kaggle.com/competitions/nfl-big-data-bowl-2024)
 
