@@ -1,7 +1,7 @@
 <center><h1>Tackle Opportunity Window</h1></center>
 &nbsp;
 
-**2 Dozen Upvotes on Kaggle!**
+**2 DOZEN UPVOTES ON KAGGLE COMPETITION!**
 
 Competition Submission To Undergraduate Track: [Submission](https://www.kaggle.com/code/godragons6/tackle-opportunity-window)
 
