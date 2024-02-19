@@ -1,4 +1,7 @@
-<center><h1>Tackle Opportunity Window</h1></center>
+<div align="center">
+  <h2><b>Tackle Opportunity Window<b></h2>
+</div>
+
 &nbsp;
 
 **2 DOZEN UPVOTES ON KAGGLE COMPETITION!**
