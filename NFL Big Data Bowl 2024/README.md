@@ -1,6 +1,3 @@
-<div align="center">
-  <h2><b>Tackle Opportunity Window<b></h2>
-</div>
 
 &nbsp;
 
