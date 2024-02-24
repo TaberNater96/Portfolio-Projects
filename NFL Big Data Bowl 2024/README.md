@@ -1,6 +1,5 @@
-<div align="center">
-  <h2><b>Tackle Opportunity Window<b></h2>
-</div>
+<center><h1>Tackle Opportunity Window</h1></center>
+&nbsp;
 
 &nbsp;
 
