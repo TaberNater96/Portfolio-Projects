@@ -17,15 +17,11 @@ This GitHub repository features a diverse collection of projects, highlighting m
 Additionally, I am currently spearheading a project aimed at giving detailed insight into our planet's greenhouse gas emissions. This project encompasses the collection of data via NOAA's API using a custom-developed algorithm, followed by a rigorous process of cleaning, transforming, and loading the data into an AWS database. Subsequently, I will undertake exploratory data analysis and feature engineering to finely tune the data for a specially designed deep neural network built from scratch aimed at forecasting emission trends. The goal is to create a Streamlit dashboard that clearly presents emissions data from the past, present, and future to provide environmental insights to all as there are plenty of sources on the web for getting raw data on greenhouse gas emissions, but hardly any visualizations that provide insight into past, present, and future trends. This project will be done and published within the next 2-3 months. 
 
 <div align="center">
-  <h2>Quick Summaries</h2>
+  <h2>Summaries</h2>
 </div>
 
 ## Table of Contents
 - [Tackle Opportunity Window](#tackle-opportunity-window)
-
-<div align="center">
-  <h2>Summary</h2>
-</div>
 
 &nbsp;
 
