@@ -17,7 +17,7 @@ This GitHub repository features a diverse collection of projects, highlighting m
 Additionally, I am currently spearheading a project aimed at giving detailed insight into our planet's greenhouse gas emissions. This project encompasses the collection of data via NOAA's API using a custom-developed algorithm, followed by a rigorous process of cleaning, transforming, and loading the data into an AWS database. Subsequently, I will undertake exploratory data analysis and feature engineering to finely tune the data for a specially designed deep neural network built from scratch aimed at forecasting emission trends. The goal is to create a Streamlit dashboard that clearly presents emissions data from the past, present, and future to provide environmental insights to all as there are plenty of sources on the web for getting raw data on greenhouse gas emissions, but hardly any visualizations that provide insight into past, present, and future trends. This project will be done and published within the next 2-3 months. 
 
 <div align="center">
-  <h2>Quick Overviews (TLDR)</h2>
+  <h2>Overviews (TLDR)</h2>
 </div>
 
 ## Table of Contents
@@ -49,7 +49,13 @@ In developing TOW, I leveraged a sophisticated approach to manage the sheer volu
 <img src="https://github.com/TaberNater96/Portfolio-Projects/blob/main/NFL%20Big%20Data%20Bowl%202024/Images/TOW%20Plot%20Animation.gif?raw=true" width="800" height="400">
 </div>
 
-Moreover, I am the first to develop the TOW metric within the field of football analytics, demonstrating an unparalleled ability to innovate and pioneer new methodologies in sports analytics. This metric offers a fresh perspective by focusing on the precise moments a player remains within a strategic distance to make a successful tackle, thereby introducing a novel way to evaluate defensive actions. The project not only showcases my technical skills in handling large-scale data and complex statistical models but also highlights my creativity in generating new solutions to analyze performance metrics. By identifying and crafting a new evaluative metric, I have set a new standard in sports analytics for projects to build off of when analyzing tackle metrics, proving my capacity to lead and innovate in the field. This initiative demonstrates not just analytical acumen but also a visionary approach to transforming how data insights drive strategic decisions.
+Owing to the intrinsic capabilities of a neural network, particularly its adeptness in detecting nuanced variations, the direction and orientation of each player were pivotal in enabling the model to discern and adapt to subtle shifts. These shifts are essential for the model to recognize and adhere to an emergent pattern, as the features exhibit significant, yet controlled, variation across successive frames. This variation is not arbitrary, but rather demonstrative of a tackler pursuing their target with precision. The controlled variability within these features provides the model with critical data points, allowing it to effectively learn and predict the dynamics of a tackler's movement in relation to their target. Visualizing the distribution of each player's orientation and direction in the EDA phase, and noticing the non-random variation, is what gave rise to the idea of focusing on this specific concept in parallel with the tackle opportunity window. 
+
+<div align="center">
+<img src="https://github.com/TaberNater96/Portfolio-Projects/blob/main/NFL%20Big%20Data%20Bowl%202024/Images/Polar%20Histogram.png?raw=true" width="600" height="600">
+</div>
+
+To speak plainly, I am indeed the first to develop the TOW metric within the field of football analytics, demonstrating an unparalleled ability to innovate and pioneer new methodologies in sports analytics. This metric offers a fresh perspective by focusing on the precise moments a player remains within a strategic distance to make a successful tackle, thereby introducing a novel way to evaluate defensive actions. The project not only showcases my technical skills in handling large-scale data and complex statistical models but also highlights my creativity in generating new solutions to analyze performance metrics. By identifying and crafting a new evaluative metric, I have set a new standard in sports analytics for projects to build off of when analyzing tackle metrics, proving my capacity to lead and innovate in the field. This initiative demonstrates not just analytical acumen but also a visionary approach to transforming how data insights drive strategic decisions.
 
 
 
