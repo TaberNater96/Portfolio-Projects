@@ -32,7 +32,7 @@ My portfolio project, "Tackle Opportunity Window (TOW)," presented at the NFL Bi
 The neural network I developed for this project processes real-time player tracking data to predict tackle probabilities, a key output visualized using Plotly Express that I built from scratch. As the game progresses, each player's position relative to the ball carrier is fed into the model, which calculates the likelihood of a tackle. This probability is graphically represented by a dynamic 'probability bubble' around each player on the field. These bubbles grow in size as players enter closer proximity to the ball carrier, aligning with the increasing Tackle Opportunity Window (TOW). This visualization technique not only illustrates the model’s predictive capabilities but also provides an intuitive display of shifting tackle probabilities during live gameplay, highlighting the application of advanced neural network analysis in real-time sports scenarios.
 
 <div align="center">
-<img src="https://github.com/TaberNater96/Portfolio-Projects/blob/main/NFL%20Big%20Data%20Bowl%202024/Images/Players/Marshon%20and%20Tyrann.png?raw=true" width="800" height="100">
+<img src="https://github.com/TaberNater96/Portfolio-Projects/blob/main/NFL%20Big%20Data%20Bowl%202024/Images/Players/Marshon%20and%20Tyrann.png?raw=true" width="800" height="90">
 </div>
 
 <div align="center">
@@ -42,7 +42,7 @@ The neural network I developed for this project processes real-time player track
 In developing TOW, I leveraged a sophisticated approach to manage the sheer volume of data efficiently. The methodology involved calculating the dynamic Euclidean distance between a defender and the ball carrier across multiple frames, utilizing a vectorized computation method. This innovation not only optimized the processing of vast datasets but also illuminated hidden patterns within the chaotic and fast-paced movements of NFL games. The result is a unique, finely tuned metric that significantly enhances our understanding of defensive tactics and player effectiveness.
 
 <div align="center">
-<img src="https://github.com/TaberNater96/Portfolio-Projects/blob/main/NFL%20Big%20Data%20Bowl%202024/Images/Players/Marshon%20and%20Tyrann.png?raw=true" width="800" height="100">
+<img src="https://github.com/TaberNater96/Portfolio-Projects/blob/main/NFL%20Big%20Data%20Bowl%202024/Images/Players/Marshon%20and%20Tyrann.png?raw=true" width="800" height="90">
 </div>
 
 <div align="center">
