@@ -23,7 +23,7 @@ Additionally, I am currently spearheading a project aimed at giving detailed ins
 ## Table of Contents
 - [Tackle Opportunity Window](#tackle-opportunity-window)
 
-<div id="tackle-opportunity-window">
+<div id="tackle-opportunity-window" align="center">
   <h2>Tackle Opportunity Window</h2>
 </div>
 
