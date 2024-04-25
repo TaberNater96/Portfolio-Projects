@@ -27,6 +27,10 @@ Additionally, I am currently spearheading a project aimed at giving detailed ins
   <h2>Tackle Opportunity Window</h2>
 </div>
 
+<a href="https://www.kaggle.com/code/godragons6/tackle-opportunity-window" target="_blank"><img align="left" alt="Kaggle" title="View Competition Submission" src="https://kaggle.com/static/images/open-in-kaggle.svg"></a>
+
+&nbsp;
+
 My portfolio project, "Tackle Opportunity Window (TOW)," presented at the NFL Big Data Bowl 2024, introduces a groundbreaking metric to analyze and predict the defensive play in football. The TOW metric quantifies the crucial timeframe a defender has to execute a tackle, showcasing my capability to handle and extract meaningful insights from extensive and complex datasets containing over 12 million rows of high dimensional data.
 
 The neural network I developed for this project processes real-time player tracking data to predict tackle probabilities, a key output visualized using Plotly Express that I built from scratch. As the game progresses, each player's position relative to the ball carrier is fed into the model, which calculates the likelihood of a tackle. This probability is graphically represented by a dynamic 'probability bubble' around each player on the field. These bubbles grow in size as players enter closer proximity to the ball carrier, aligning with the increasing Tackle Opportunity Window (TOW). This visualization technique not only illustrates the model’s predictive capabilities but also provides an intuitive display of shifting tackle probabilities during live gameplay, highlighting the application of advanced neural network analysis in real-time sports scenarios.
