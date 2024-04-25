@@ -1,13 +1,11 @@
 <center><h1>Tackle Opportunity Window</h1></center>
 &nbsp;
 
-&nbsp;
-
 **2 DOZEN UPVOTES ON KAGGLE COMPETITION!**
 
-Competition Submission To Undergraduate Track: [Submission](https://www.kaggle.com/code/godragons6/tackle-opportunity-window)
+<a href="https://www.kaggle.com/code/godragons6/tackle-opportunity-window" target="_blank"><img align="left" alt="Kaggle" title="View Competition Submission" src="https://kaggle.com/static/images/open-in-kaggle.svg"></a>
 
-Data Source: [NFL Big Data Bowl 2024](https://www.kaggle.com/competitions/nfl-big-data-bowl-2024)
+&nbsp;
 
 # Introduction
 
