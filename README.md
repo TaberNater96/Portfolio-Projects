@@ -1,5 +1,5 @@
 <div align="center">
-  <h2><b>Portfolio Projects<b></h2>
+  <h1><b>Portfolio Projects<b></h1>
 </div>
 
 &nbsp;
