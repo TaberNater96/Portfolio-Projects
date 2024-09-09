@@ -1,19 +1,4 @@
 <div align="center">
-  <h1><b>Portfolio Projects<b></h1>
-</div>
-
-&nbsp;
-
-<details>
-  <summary><b>Click Here To Navigate To Each Repository<b></summary>
-
-  - [Tackle Opportunity Window](https://github.com/TaberNater96/Portfolio-Projects/tree/main/NFL%20Big%20Data%20Bowl%202024)
-  - [Climate Insight](https://github.com/TaberNater96/Portfolio-Projects/tree/main/Climate%20Comprehension)
-</details>
-
-&nbsp;
-
-<div align="center">
   <h2>Overviews (TLDR)</h2>
 </div>
 
